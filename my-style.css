@@ -1,6 +1,36 @@
 * {
   box-sizing: border-box;
 }
+<style>/*desktop version*/
+@media (min-width: 992px) {
+  .column-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-6 {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .colmn-md-12 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*mobile version*/
+@media (max-width: 767px) {
+  .colmn-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+<//style>
 body {
   background-color: #9e8851;
 }
@@ -112,32 +142,3 @@ div {
   width: 90%;
 }
 
-/*desktop version*/
-@media (min-width: 992px) {
-  .column-lg-4 {
-    float: left;
-    width: 33.33%;
-  }
-}
-/*tablet version*/
-@media (min-width: 768px) and (max-width: 991px) {
-  .colmn-md-6 {
-    float: left;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .colmn-md-12 {
-    float: left;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-/*mobile version*/
-@media (max-width: 767px) {
-  .colmn-sm-12 {
-    float: left;
-    width: 100%;
-  }
-}
