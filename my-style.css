@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-/*desktop version*/
+body {
+  background-color: #D5AD0B;
+  /*desktop version*/
 @media (min-width: 992px) {
   .column-lg-4 {
     float: left;
@@ -30,8 +32,6 @@
     width: 100%;
   }
 }
-body {
-  background-color: #D5AD0B;
 }
 h1 {
   margin: 100px;
